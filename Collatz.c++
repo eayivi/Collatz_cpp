@@ -49,6 +49,7 @@ int cycle_length (int n) {
 // ------------
 
 bool collatz_read (std::istream& r, int& i, int& j) {
+
     r >> i;
     if (!r)
         return false;
